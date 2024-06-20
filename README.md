@@ -1,4 +1,5 @@
-Wow! Here we are at my second project – a palindrome checker!
+Wow! Here we are at my second HTML/Javascript project – a palindrome checker!
+Here is the link: https://learnmore-smart.github.io/Palindrome-checker/
 
 Wait a sec… What is a palindrome? It’s a word that reads the same way forwards and backwards (e.g., dad, mom, madam).
 
