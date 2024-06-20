@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Palindrome Checker</title>
+    <style>
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            }
+        h2 {
+        font-size: 15px;
+        font-style: italic;
+        text-align: center;
+        color: rgba(27, 26, 26, 0.671)
+        }
+        button {
+            border-radius:100px;
+            width: 70px;
+            height: 50px;
+            margin: 12px;
+            font-weight: bold;
+            font-size: 15px
+        }
+        input {
+            border-radius:100px;
+            width: 300px;
+            height: 50px;
+            margin: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .button-container {
+        display: flex;
+        justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Palindrome Checker</h1>
+    <h2>What is a palindrome? Well, it's a word that reads the same way forwards and backwards (e.g., dad, mom)</h2>
+    <div class="button-container">
+    <input type="text" id="input" placeholder="Unleash your words here!">
+    <button onclick="check()">Check</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
